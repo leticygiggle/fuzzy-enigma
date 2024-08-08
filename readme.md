@@ -33,13 +33,13 @@ HEAD -- это голова.
 ```mermaid
 graph LR;
 
-untracked -- 'git add' --> staged + tracked;
+untracked -- 'git add' --> 'staged + tracked';
 
 staged -- 'изменения' --> modified;
 
-modified -- 'git add' --> staged + tracked;
+modified -- 'git add' --> 'staged + tracked';
 
-staged + tracked --'git commit'-->tracked;
+'staged + tracked' --'git commit'-->tracked;
 
 tracked --'изменения'-->modified;
 
