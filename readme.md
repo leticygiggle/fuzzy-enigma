@@ -31,7 +31,7 @@ HEAD -- это голова.
 <тут пустая строка!>
 
 ```mermaid
-graphLR;
+graph LR;
 
 untracked -- 'git add' --> staged + tracked;
 staged -- 'изменения' --> modified;
