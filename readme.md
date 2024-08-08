@@ -34,10 +34,15 @@ HEAD -- это голова.
 graph LR;
 
 untracked -- 'git add' --> staged + tracked;
+
 staged -- 'изменения' --> modified;
+
 modified -- 'git add' --> staged + tracked;
+
 staged + tracked --'git commit'-->tracked;
+
 tracked --'изменения'-->modified;
+
 ```
 <и тут пустая строка!>
 
