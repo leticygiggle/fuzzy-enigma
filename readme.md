@@ -24,3 +24,19 @@ cd my_project
 git init
 ```
 Это лишь некоторые функции markdown.
+
+HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов:
+<тут пустая строка!>
+
+```mermaid
+untracked -- 'git add' --> staged + tracked;
+staged -- 'изменения' --> modified;
+modified -- 'git add' --> staged + tracked;
+staged + tracked --'git commit'-->tracked;
+tracked --'изменения'-->modified;
+```
+<и тут пустая строка!>
+
+
