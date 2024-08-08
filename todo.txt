@@ -1,7 +1,2 @@
-111111111
-changing 1st row
-and some changes to describe
-hope it works well
-another line has changed
-does enter counts as extra line? i think it doesnt
-providing some extra for knowledge
+To do list:
+1. Make proper repository
